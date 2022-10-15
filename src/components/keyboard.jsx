@@ -15,11 +15,11 @@ const Keyboard = ({ handleClick, clear, backspace, equalsTo }) => {
         >
           C
         </button>
-        <button className="greyHighlight" onClick={handleClick}>
+        <button value="%" className="greyHighlight" onClick={handleClick}>
           %
         </button>
         <button value="/" className="highlight" onClick={handleClick}>
-          &divide;
+          /
         </button>
         <button value="7" onClick={handleClick}>
           7
